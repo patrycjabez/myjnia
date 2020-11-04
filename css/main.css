@@ -17,7 +17,8 @@ body{
     height:100px;
     margin-top:1em;
     margin-bottom: 1em;
-    border:1px solid hsl(240, 50%, 50%);
+    border-top:1px solid hsl(240, 50%, 50%);
+    border-bottom:1px solid hsl(240, 50%, 50%);
     width:100%;
 
 }
@@ -33,3 +34,4 @@ body{
     font-size:130%;
     letter-spacing:0.3em;
 }
+
