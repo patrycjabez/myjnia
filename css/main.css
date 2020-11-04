@@ -69,6 +69,7 @@ body{
     color:black;
     padding:1em;
     border-radius:1em;
+    box-shadow: 0 0 1em 5px hsl(240, 50%, 50%);
 }
 
 .prawy{
@@ -78,6 +79,7 @@ body{
     padding:1em;
     border-radius:1em;
     margin-left:6.9%;
+    box-shadow: 0 0 1em 5px hsl(240, 50%, 50%);
 }
 
 
