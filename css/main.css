@@ -44,8 +44,8 @@ body{
 .menu nav a{
     text-decoration: none;
     text-align: center;
-    margin:20%;
-    border-radius:20%;
+    padding:0.8em;
+    border-radius:0.8em;
 }
 
 .menu h1 a{
