@@ -11,7 +11,7 @@ body{
     display:flex;
     flex-wrap:wrap;
     width:1000px;
-    justify-content: center;
+    
 }
 .menu{
     height:100px;
@@ -36,7 +36,12 @@ body{
 }
 
 .glowna{
-    width:30%;
+    width:70%;
     background-color: hsl(240, 50%, 90%);
     color:black;
 }
+
+.prawy{
+    width:30%;
+}
+
