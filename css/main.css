@@ -31,11 +31,27 @@ body{
     margin-left:0;
 }
 
+.menu nav a:nth-of-type(1){
+    background-color: hsl(240, 50%, 90%);
+    color:hsl(240, 50%, 50%);
+}
 
+.menu nav a:nth-of-type(2){
+    background-color:hsl(240, 50%, 50%);
+    color:hsl(240, 50%, 90%);
+}
+
+.menu nav a{
+    text-decoration: none;
+    text-align: center;
+    margin:20%;
+    border-radius:20%;
+}
 
 .menu h1 a{
     font-size:130%;
     letter-spacing:0.3em;
+    
 }
 
 .menu nav{
@@ -44,6 +60,8 @@ body{
 
 .menu *{
     width:8em;
+    margin:0.8;
+    border-radius:0.8;
 }
 
 .glowna{
