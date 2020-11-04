@@ -28,3 +28,8 @@ body{
     text-transform: uppercase;
     word-spacing:3em;
 }
+
+.menu h1 a{
+    font-size:130%;
+    letter-spacing:0.3em;
+}
