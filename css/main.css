@@ -11,7 +11,6 @@ body{
     display:flex;
     flex-wrap:wrap;
     width:1000px;
-    
 }
 .menu{
     height:100px;
@@ -23,27 +22,39 @@ body{
 
 }
 .menu h1{
-    width:60%;
+    width:70%;
     justify-content: center;
     color:hsl(240, 50%, 50%);
     text-transform: uppercase;
     word-spacing:3em;
+    margin-right:0;
+    margin-left:0;
 }
+
+
 
 .menu h1 a{
     font-size:130%;
     letter-spacing:0.3em;
 }
 
+.menu nav{
+    width:30%;
+}
+
+.menu *{
+    width:8em;
+}
+
 .glowna{
-    width:70%;
     background-color: hsl(240, 50%, 90%);
     color:black;
 }
 
 .prawy{
-    width:30%;
     background-color: hsl(240, 50%, 90%);
     color:black;
 }
+
+
 
