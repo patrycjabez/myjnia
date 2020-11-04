@@ -21,3 +21,10 @@ body{
     width:100%;
 
 }
+.menu h1{
+    width:60%;
+    justify-content: center;
+    color:hsl(240, 50%, 50%);
+    text-transform: uppercase;
+    word-spacing:3em;
+}
