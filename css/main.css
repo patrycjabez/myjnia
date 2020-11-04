@@ -67,11 +67,17 @@ body{
 .glowna{
     background-color: hsl(240, 50%, 90%);
     color:black;
+    padding:1em;
+    border-radius:1em;
 }
 
 .prawy{
     background-color: hsl(240, 50%, 90%);
     color:black;
+    width:60%;
+    padding:1em;
+    border-radius:1em;
+    margin-left:6.9%;
 }
 
 
