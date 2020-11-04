@@ -79,8 +79,29 @@ body{
     width:60%;
     padding:1em;
     border-radius:1em;
-    margin-left:6.9%;
+    margin-left:6%;
     box-shadow: 0 0 1em 5px hsl(240, 50%, 50%);
+}
+
+.form{
+    width:55%;
+
+}
+form label{
+    margin:0.3em;
+}
+.reset{
+    width:6em;
+    padding:0.5em;
+}
+button{
+    width:6em;
+    padding:0.5em;
+}
+
+#wynik{
+    color:kolor czcionki hsl(0, 100%, 50%);
+    font-size:1.5em;
 }
 
 
