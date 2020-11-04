@@ -15,6 +15,38 @@
             <a href="cennik.html">Cennik</a>
         </nav>
     </article>
+    <article class="glowna">
+        <h2>Oblicz koszt usługi</h2>
+        <form>
+            <label>Podaj imię <input type="text" id="imie" placeholder="wpisz swoje imię" required></label>
+            <fieldset>
+                <legend>Usługa</legend>
+                <label>Mycie zewnętrzne 30zł<input type="checkbox" id="mycie" checked disabled></label><br>
+                <label>Suszenie 10zł<input type="checkbox" id="suszenie"></label><br>
+                <label>Woskowanie 15zł<input type="checkbox" id="woskowanie"></label><br>
+                <label>Odkurzanie 10zł<input type="checkbox" id="odkurzanie"></label><br>
+            </fieldset>
+            <fieldset>
+                <legend>Rodzaj pojazdu</legend>
+                <select>
+                    <option>Mały</option>
+                    <option>Średni (+10%)</option>
+                    <option>Van (+20%)</option>
+                    <option>Bus (+45%)</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Karta stałego klienta</legend>
+                <label>Brak<input type="radio" name="klient" checked></label><br>
+                <label>Srebrna (-5%)<input type="radio" name="klient"></label><br>
+                <label>Złota (-15%)<input type="radio" name="klient"></label><br>
+            </fieldset>
+            <input type="reset" value="Wyczyść">
+            <button onlick="oblicz()">Oblicz</button>
+        </form>
+        <p id="koszty">Koszt usługi:</p>
+        <img src="img/hand_m.jpg" alt="mycie ręczne">
+    </article>
     <article class="prawy">
         <h3>Rezerwacja na godzinę</h3>
         <p>Rezerwacja na godzinę - rezerwuj termin mycia samochodu. Masz za mało czasu? Nie lubisz czekać? Zarezerwuj mycie pojazdu na konkretną godzinę</p>
