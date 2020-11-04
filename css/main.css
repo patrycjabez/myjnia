@@ -35,3 +35,8 @@ body{
     letter-spacing:0.3em;
 }
 
+.glowna{
+    width:30%;
+    background-color: hsl(240, 50%, 90%);
+    color:black;
+}
