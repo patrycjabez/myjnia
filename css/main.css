@@ -70,6 +70,7 @@ body{
     padding:1em;
     border-radius:1em;
     box-shadow: 0 0 1em 5px hsl(240, 50%, 50%);
+    line-height: 2em;
 }
 
 .prawy{
